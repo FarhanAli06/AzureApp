@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Farhan\\Repos\\AzureBusServiceDemo\\AzureBusServiceDemo\\AzureDemo.csproj": {}
+  },
+  "projects": {
+    "D:\\Farhan\\Repos\\AzureBusServiceDemo\\AzBusService\\AzBusServiceShare.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Farhan\\Repos\\AzureBusServiceDemo\\AzBusService\\AzBusServiceShare.csproj",
+        "projectName": "AzBusServiceShare",
+        "projectPath": "D:\\Farhan\\Repos\\AzureBusServiceDemo\\AzBusService\\AzBusServiceShare.csproj",
+        "packagesPath": "C:\\Users\\sunrise\\.nuget\\packages\\",
+        "outputPath": "D:\\Farhan\\Repos\\AzureBusServiceDemo\\AzBusService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sunrise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Farhan\\Repos\\AzureBusServiceDemo\\AzureBusServiceDemo\\AzureDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Farhan\\Repos\\AzureBusServiceDemo\\AzureBusServiceDemo\\AzureDemo.csproj",
+        "projectName": "AzureDemo",
+        "projectPath": "D:\\Farhan\\Repos\\AzureBusServiceDemo\\AzureBusServiceDemo\\AzureDemo.csproj",
+        "packagesPath": "C:\\Users\\sunrise\\.nuget\\packages\\",
+        "outputPath": "D:\\Farhan\\Repos\\AzureBusServiceDemo\\AzureBusServiceDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sunrise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Farhan\\Repos\\AzureBusServiceDemo\\AzBusService\\AzBusServiceShare.csproj": {
+                "projectPath": "D:\\Farhan\\Repos\\AzureBusServiceDemo\\AzBusService\\AzBusServiceShare.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Azure.ServiceBus": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

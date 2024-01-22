@@ -1,0 +1,11 @@
+C:\Users\sunrise\source\repos\AzureBusServiceDemo\AzBusService\bin\Debug\net8.0\AzBusServiceShare.deps.json
+C:\Users\sunrise\source\repos\AzureBusServiceDemo\AzBusService\bin\Debug\net8.0\AzBusServiceShare.dll
+C:\Users\sunrise\source\repos\AzureBusServiceDemo\AzBusService\bin\Debug\net8.0\AzBusServiceShare.pdb
+C:\Users\sunrise\source\repos\AzureBusServiceDemo\AzBusService\obj\Debug\net8.0\AzBusServiceShare.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sunrise\source\repos\AzureBusServiceDemo\AzBusService\obj\Debug\net8.0\AzBusServiceShare.AssemblyInfoInputs.cache
+C:\Users\sunrise\source\repos\AzureBusServiceDemo\AzBusService\obj\Debug\net8.0\AzBusServiceShare.AssemblyInfo.cs
+C:\Users\sunrise\source\repos\AzureBusServiceDemo\AzBusService\obj\Debug\net8.0\AzBusServiceShare.csproj.CoreCompileInputs.cache
+C:\Users\sunrise\source\repos\AzureBusServiceDemo\AzBusService\obj\Debug\net8.0\AzBusServiceShare.dll
+C:\Users\sunrise\source\repos\AzureBusServiceDemo\AzBusService\obj\Debug\net8.0\refint\AzBusServiceShare.dll
+C:\Users\sunrise\source\repos\AzureBusServiceDemo\AzBusService\obj\Debug\net8.0\AzBusServiceShare.pdb
+C:\Users\sunrise\source\repos\AzureBusServiceDemo\AzBusService\obj\Debug\net8.0\ref\AzBusServiceShare.dll

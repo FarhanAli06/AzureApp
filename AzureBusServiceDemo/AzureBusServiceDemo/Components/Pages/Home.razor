@@ -1,0 +1,27 @@
+﻿@page "/"
+@using AzBusServiceShare.Models
+@using AzureDemo.Services
+
+@inject IQueueService queue
+
+<EditForm FormName="PublishMessagess" Model="@person" OnValidSubmit="@PublishMessage">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div>
+        <label for="firstName">First Name</label>
+        <InputText id="firstname" class="form-control" @bind-Value="person.FirstName"></InputText>
+    </div>
+    <div>
+        <label for="lastName">Last Name</label>
+        <InputText id="lastname" class="form-control" @bind-Value="person.LastName"></InputText>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</EditForm>
+@code{
+    private PersonModal person = new PersonModal();
+    private void PublishMessage(){
+
+        queue.SendMessageAsync(person, "personqueue");
+        person = new PersonModal();
+    }
+}
